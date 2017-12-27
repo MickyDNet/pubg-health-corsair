@@ -24,3 +24,4 @@ Try changing the second argument to `false` on `var cue = ..` (line 5)
 
 # Known Issues
 * FATAL ERROR: CALL_AND_RETRY_LAST Allocation failed - JavaScript heap out of memory
+* `ST100 RGB Premium Headset Stand` does not light up (the SDK currently doesn't support it)

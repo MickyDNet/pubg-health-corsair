@@ -2,19 +2,19 @@ const cue = require('cue-sdk'),
   robot = require("robotjs"),
   hexRgb = require('hex-rgb');
 
-  //-------------------------------------//
-  //    CONFIG - YOU CAN CHANGE THESE    //
-  //-------------------------------------//
-  var pubghealthx = 1456;
-  var pubghealthy = 1383;
-  //var mouse = robot.getMousePos();
-  //console.log(mouse);
-  
-  //-------------------------------------//
-  //  DONT CHANGE ANYTHING UNDER HERE!   //
-  // unless you know what you are doing! //
-  //-------------------------------------//
-  
+//-------------------------------------//
+//    CONFIG - YOU CAN CHANGE THESE    //
+//-------------------------------------//
+const pubghealthx = 1456;
+const pubghealthy = 1383;
+//var mouse = robot.getMousePos();
+//console.log(mouse);
+
+//-------------------------------------//
+//  DONT CHANGE ANYTHING UNDER HERE!   //
+// unless you know what you are doing! //
+//-------------------------------------//
+
 // initialize sdk
 cue.CorsairPerformProtocolHandshake();
 

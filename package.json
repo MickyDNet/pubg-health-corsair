@@ -6,8 +6,8 @@
     "start": "node index.js"
   },
   "dependencies": {
-    "cue-sdk-node": "1.2.1",
-    "robotjs": "0.4.7",
-    "hex-rgb":"1.0.0"
+    "cue-sdk": "1.0.0",
+    "hex-rgb": "4.1.0",
+    "robotjs": "0.5.1"
   }
 }

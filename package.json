@@ -1,5 +1,13 @@
 {
   "name": "pubg-corsair",
   "version": "0.0.1",
-  "description": "Corsair Keyboard, Mouse and Headset Health Bar"
+  "description": "Corsair Keyboard, Mouse and Headset Health Bar",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "cue-sdk": "1.0.0",
+    "hex-rgb": "4.1.0",
+    "robotjs": "0.5.1"
+  }
 }
